@@ -11,9 +11,12 @@ namespace test_products.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
+        [HttpGet]
         public void Add()
         {
-
+            int a = 5;
+            int b = 10;
+            int c=a + b;
         }
     }
 }
