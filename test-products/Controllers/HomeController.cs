@@ -11,6 +11,7 @@ namespace test_products.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
+        [HttpGet]
         public void Add()
         {
             int a = 5;
