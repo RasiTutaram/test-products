@@ -18,5 +18,14 @@ namespace test_products.Controllers
             int b = 10;
             int c=a + b;
         }
+        public void Sub()
+        {
+
+            int i = 20;
+            int j = 5;
+            int k = i - j;
+        }
+
+
     }
 }
